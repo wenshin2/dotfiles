@@ -9,6 +9,7 @@ alias gv gvim
 alias gvr gvim -R
 
 alias ll 'ls -lah --color=auto'
+alias l ll
 alias lrt 'ls -lrth --color=auto'
 alias lart 'ls -larth --color=auto'
 alias lsd 'source ~/bin/lsd'
