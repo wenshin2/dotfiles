@@ -79,4 +79,4 @@ map <C-K> <C-W>k<C-W>
 """"""""""""""""""
 iab #c #! /usr/bin/tcsh
 iab #p #! /usr/bin/perl -w
-iab #py #! /usr/bin/python
+iab #y #! /usr/bin/python
