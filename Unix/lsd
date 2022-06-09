@@ -1,0 +1,12 @@
+#! /usr/bin/tcsh -f
+#cd, then ls
+
+if ($# == 0) then
+  cd ~
+else if ($1 == ...) then
+  cd ../..
+else
+  cd "$*"
+endif
+
+ls
