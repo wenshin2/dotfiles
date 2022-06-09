@@ -20,6 +20,7 @@ alias eg 'egrep --color=auto'
 alias gc 'grep --color=always'
 
 alias o 'less -r'
+alias h 'history'
 alias p pwd
 alias rp realpath
 alias cls clear
