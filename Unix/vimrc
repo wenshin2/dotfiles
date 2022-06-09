@@ -31,6 +31,7 @@ set hls
 set incsearch
 
 "Smart case when searching
+set ignorecase
 set smartcase
 
 "Enable ctrl-n and ctrl=p to scroll thru matches
