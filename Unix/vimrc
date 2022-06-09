@@ -1,0 +1,82 @@
+"Automatically update file if changed outside vim
+set autoread
+
+"Enable mouse everywhere
+set mouse=a
+
+"Show line number
+set number
+
+"Show hybrid line & relative number
+set number relativenumber
+
+"Enable syntax highlighting
+syntax on
+
+"Automatically detect file types
+filetype plugin indent on
+
+"Tab = 4 spaces
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+"Show cursor position in status bar
+set ruler
+
+"Highlight search results
+set hls
+
+"Incremental search
+set incsearch
+
+"Smart case when searching
+set smartcase
+
+"Enable ctrl-n and ctrl=p to scroll thru matches
+set wildmenu
+
+"Open file at last edit position
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
+	    \| exe "normal! g'\"" | endif
+endif
+
+"Associate stcl & upf with tcl filetype
+au BufRead,BufNewFile *.stcl set filetype=tcl
+au BufRead,BufNewFile *.upf set filetype=tcl
+
+""""""""""""""""""
+"KEY MAPS
+""""""""""""""""""
+
+"Edit vimrc easily
+noremap ,vimrc :!vim ~/.vimrc<CR>
+
+"Map Escape key
+imap jj <ESC>
+
+"Map ff to : in normal mode
+noremap ff :
+
+"Add executable permission
+noremap ,ex :!chmod ug+x %<CR>
+
+"Execute current file
+noremap ,exe :w<CR>:!%<CR>
+
+"Paste mode toggle
+noremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+
+"easy moving between split windows
+map <C-J> <C-W>j<C-W>
+map <C-K> <C-W>k<C-W>
+
+""""""""""""""""""
+"KEY EXPANSIONS
+""""""""""""""""""
+iab #c #! /usr/bin/tcsh
+iab #p #! /usr/bin/perl -w
+iab #py #! /usr/bin/python
