@@ -1,0 +1,60 @@
+############################
+# personal aliases
+############################
+alias vali vim ~/.aliases
+alias vimrc vim ~/.vimrc
+alias v vim
+alias vr vim -R
+alias gv gvim
+alias gvr gvim -R
+
+alias ll 'ls -lah --color=auto'
+alias lrt 'ls -lrth --color=auto'
+alias lart 'ls -larth --color=auto'
+alias lsd 'source ~/bin/lsd'
+
+alias g grep
+alias zg 'zgrep --color=auto'
+alias eg 'egrep --color=auto'
+alias gc 'grep --color=always'
+
+alias o 'less -r'
+alias p pwd
+alias rp realpath
+alias cls clear
+alias so source
+alias x exit
+alias w 'chmod u+w'
+alias ex 'chmod u+x'
+alias j jobs
+alias df 'df -h'
+alias duh 'du -sh'
+alias dusort 'du --max-depth 1 --human-readable .|sort -n -r'
+alias rsync 'rsync -Paz'
+alias rz 'yes n | gzip -r'
+alias gz gzip
+alias guz gunzip
+alias dis 'display'
+alias hd 'head'
+alias tl 'tail'
+
+#easy nav up directories
+alias ..='cd ..'
+alias ...='cd ../../'
+alias cd2 ='cd ../../' 
+alias cd3 ='cd ../../../' 
+alias cd4 ='cd ../../../../' 
+alias cd5 ='cd ../../../../../' 
+
+alias gitlog "git log --format='%Cred%h%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset%C(yellow)%d%Creset'"
+
+### may need this sometimes
+#set autolist ambiguous
+
+### reference
+#tar 'tar -cvzf' dest file
+#untar gz: tar xvzf filename.tar.gz
+
+############################
+# project aliases
+############################
