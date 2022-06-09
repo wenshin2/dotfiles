@@ -77,6 +77,8 @@ map <C-K> <C-W>k<C-W>
 map <C-L> <C-W>l<C-W>
 map <C-H> <C-W>h<C-W>
 
+"turn off search highlight with Escape
+map <ESC> :noh <CR>
 """"""""""""""""""
 "KEY EXPANSIONS
 """"""""""""""""""
