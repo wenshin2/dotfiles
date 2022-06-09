@@ -41,12 +41,12 @@ alias hd 'head'
 alias tl 'tail'
 
 #easy nav up directories
-alias ..='cd ..'
-alias ...='cd ../../'
-alias cd2 ='cd ../../' 
-alias cd3 ='cd ../../../' 
-alias cd4 ='cd ../../../../' 
-alias cd5 ='cd ../../../../../' 
+alias .. "cd .."
+alias ... "cd ../../"
+alias cd2 "cd ../../" 
+alias cd3 "cd ../../../" 
+alias cd4 "cd ../../../../" 
+alias cd5 "cd ../../../../../" 
 
 alias gitlog "git log --format='%Cred%h%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset%C(yellow)%d%Creset'"
 
