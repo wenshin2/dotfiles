@@ -81,6 +81,7 @@ map <C-H> <C-W>h<C-W>
 """"""""""""""""""
 "KEY EXPANSIONS
 """"""""""""""""""
-iab #c #! /usr/bin/tcsh
-iab #p #! /usr/bin/perl -w
-iab #y #! /usr/bin/python
+iab #b #! /usr/bin/env bash
+iab #c #! /usr/bin/env tcsh
+iab #p #! /usr/bin/env perl -w
+iab #y #! /usr/bin/env python
