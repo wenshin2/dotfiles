@@ -50,6 +50,8 @@ alias cd5 "cd ../../../../../"
 
 alias gitlog "git log --format='%Cred%h%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset%C(yellow)%d%Creset'"
 
+alias bj bjobs
+
 ### may need this sometimes
 #set autolist ambiguous
 
