@@ -45,7 +45,7 @@ current=%A_Hour%:%A_Min% %A_MM%/%A_DD%/%A_YYYY%
 InputBox, UserInput, Daily Log, What did you accomplish?, , 380, 170
 If Not ErrorLevel
 {
-   FileAppend,%current%`n%UserInput%`n`n, C:\Users\WenShin.Too\Documents\@Logs\Year - 2020\11 November\Work Log_2022_06_WW24.txt
+   FileAppend,%current%`n%UserInput%`n`n, C:\Users\User1\Documents\@Logs\Year - 2022\06 June\Work Log_2022_06_WW24.txt
 }
 Return
 
@@ -102,14 +102,11 @@ NumPut(DllCall("Shell32\SHAppBarMessage", "UInt", 4 ; ABM_GETSTATE
 
 
 ;signature
-::rsig::Regards,`nWen Shin
-::tsig::Thanks,`nWen Shin
-::jsig::PSG Structural Design Engineer
+::rsig::Regards,`nYourName
+::tsig::Thanks,`nYourName
 
 ;email
-::g@@::wenshin2@gmail.com
-::s@@::wenshin.too@starfivetech.com
-::sl@@::wenshin.too@starfivetechtechnology.com
+::g@@::youremail@gmail.com
 
 ;URL
 
